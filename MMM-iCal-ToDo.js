@@ -161,7 +161,7 @@ Module.register("MMM-iCal-ToDo", {
 		wrapper.className = this.config.tableClass;
 
 		if (events.length === 0) {
-			wrapper.innerHTML = (this.loaded) ? this.translate("EMPTY") : this.translate("LOADING");
+			wrapper.innerHTML = (this.loaded) ? "---" : this.translate("LOADING");
 			wrapper.className = this.config.tableClass + " dimmed";
 			return wrapper;
 		}
@@ -576,7 +576,7 @@ Module.register("MMM-iCal-ToDo", {
 	 * return string/array - The Symbols
 	 */
 	symbolsForUrl: function (url) {
-		let symbols = this.getToDoPropertyAsArray(event.url, "symbol", this.config.defaultSymbol);
+		let symbols = this.getToDoPropertyAsArray(url, "symbol", this.config.defaultSymbol);
 
 		return symbols;
 	},
