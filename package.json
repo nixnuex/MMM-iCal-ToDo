@@ -1,0 +1,24 @@
+{
+  "name": "MMM-iCal-ToDo",
+  "version": "1.1.0",
+  "description": "The `MMM-iCal-ToDo` displays non-completed ToDos in the iCal format from a public or private source like ownCloud/Nextcloud through WebDAV.",
+  "main": "MMM-iCal-ToDo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nixnuex/MMM-iCal-ToDo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nixnuex/MMM-iCal-ToDo/issues"
+  },
+  "homepage": "https://github.com/nixnuex/MMM-iCal-ToDo#readme",
+  "dependencies": {
+    "valid-url": "1.0.9",
+    "request": "2.88.2"
+  }
+}

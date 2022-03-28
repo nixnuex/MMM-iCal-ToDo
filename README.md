@@ -3,6 +3,14 @@ The `MMM-iCal-ToDo` displays non-completed ToDos in the iCal format from a publi
 
 ![MMM-iCal-ToDo Screenshot](MMM-iCal-ToDo.png)
 
+## Dependencies
+This module depends on the packages
+
+- `valid-url`
+- `request`
+
+Please install through `cd modules/MMM-iCal-ToDo && npm install`.
+
 ## Using the module
 
 To use this module, add it to the modules array in the `config/config.js` file:
